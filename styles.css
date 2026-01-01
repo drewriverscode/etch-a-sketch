@@ -23,6 +23,7 @@ body {
     font-style: normal;
     background: linear-gradient(135deg, var(--black) 0%, var(--dark-purple) 50%, var(--black) 100%);
     min-height: 100vh;
+    min-height: 100dvh;
     overflow-x: hidden;
 }
 
@@ -92,6 +93,10 @@ body {
 
 .control-section {
     margin-bottom: 1.5rem;
+}
+
+.control-section:last-child {
+    margin-bottom: 0;
 }
 
 .control-label {
